@@ -31,7 +31,7 @@ padding: 10px;
     text-align: left;
 }
 .main-menu a{ /*Стиль стиль применется для всех а*/
-color: rgb(1, 1, 1);
+color: rgb(128, 128, 128);
 text-decoration: none;
 padding-right: 20px;
 }
