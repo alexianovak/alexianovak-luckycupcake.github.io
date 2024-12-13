@@ -1,39 +1,133 @@
 body {
-    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', sans-serif;
+margin: 0%;
+}
+.header { /*Стиль для класса header*/
+    background-image: url(images/photo3.jpg);
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 192, 203);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-top: 5%;
+    text-align: center;
+}
+.name {
+    text-transform: uppercase;
+    color: rgb(128, 128, 128);
+}
+.doljnost {
+    color: rgb(128, 128, 128);
+    font-size: 24px;
+}
+.deviz {
+color:rgb(230, 230, 250);
+padding: 10px;
+}
+.main-menu {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+}
+.main-menu a{ /*Стиль стиль применется для всех а*/
+color: rgb(1, 1, 1);
+text-decoration: none;
+padding-right: 20px;
+}
+.main-menu a:hover{ /*псевдокласс hover меняет стиль при наведении*/
+   color:rgb(219, 112, 147);
+   transition: 0.8s; /*длительность анимации*/
+}
+
+.avatarbg {
+    display: flex;
+    justify-content: center;
+    background-image: url(images/photo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.basetext {
+    padding-bottom: 10px;
+}
+.button {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 240, 245);
+}
+.button:hover {
+    background-color:rgb(255, 228, 225);
+    transition: 0.8s;   
+}
+.main {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+.h2 {
+    margin: 0%;
+}
+.h2m {
+    padding-top: 28px;
+}
+.spisok {
+    padding-bottom: 10px;
+}
+.spisok li {
+    padding: 4px;
+}
+.footer {
+    background-image: url(images/photo2.jpg);
+    background-color: black;
+    color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-top: 2%; 
+}
+.copy {
     margin: 0%;
 }
 
-.header {
-    /*Стиль для класса header*/
-    background-image: url(images/photo3.jpg);
-    background-size: cover;
-    color: white;
-    background-color: pink;
-}
-.name{
-text-transform: uppercase;
+
+.bodytable {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 50px;
+    background-color: #18191C;
+    color: #e6dfdf;
+    font-family: "Roboto", sans-serif;
+  }
+
+.table {
+  width: 650px;
+  border-top: 7px solid rgb(0, 0, 0);
+  border-collapse: collapse;
+  text-align: center;
+  margin-bottom: 20px;
+  border: 1px solid #000000;
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
 
-.main-menu{
-font-size: 20px;
-font-weight: bold;
-padding: 20px 0;
+td {
+  text-align: left;
+	padding: 10px;
+	border: 2px solid rgb(0, 0, 0);
 }
-
-.main-menu a{ /*стиль применится для всех а, входящих в элемент с классом main-menu*/
-color: white;
-text-decoration: none
-}
-
-.main-menu a: hover{
-color: lavender;
-transition: 0.5s; /*длительность анимации*/
-}
-
-.btn{
-    text-decoration: none;
-    color: seashell;
-    font-weight: bold;
-    border: 2px solid coral(59, 59, 149);
-    
-}
+ th {
+  text-align: center;
+  padding: 10px;
+	border: 2px solid rgb(0, 0, 0);
+ }
+ thead {
+    background-color: #000000;
+    color: rgb(255, 245, 238);
+    font-weight: 600;
+ }
