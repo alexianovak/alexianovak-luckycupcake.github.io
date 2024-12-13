@@ -127,7 +127,7 @@ td {
 	border: 2px solid rgb(128, 128, 128);
  }
  thead {
-    background-color: #F1EFEE;
-    color: rgb(241,239,238);
+    background-color: #000000;
+    color: rgb(0,0,0);
     font-weight: 600;
  }
