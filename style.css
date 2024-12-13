@@ -5,7 +5,7 @@ margin: 0%;
 .header { /*Стиль для класса header*/
     background-image: url(images/photo3.jpg);
     background-size: cover;
-    color: rgb(0, 0, 0);
+    color: rgb(128, 128, 128);
     background-color: rgb(255, 192, 203);
     padding-left: 2%;
     padding-right: 2%;
@@ -107,7 +107,7 @@ padding-right: 20px;
 
 .table {
   width: 650px;
-  border-top: 7px solid rgb(0, 0, 0);
+  border-top: 7px solid rgb(128, 128, 128);
   border-collapse: collapse;
   text-align: center;
   margin-bottom: 20px;
@@ -119,12 +119,12 @@ padding-right: 20px;
 td {
   text-align: left;
 	padding: 10px;
-	border: 2px solid rgb(0, 0, 0);
+	border: 2px solid rgb(128, 128, 128);
 }
  th {
   text-align: center;
   padding: 10px;
-	border: 2px solid rgb(0, 0, 0);
+	border: 2px solid rgb(128, 128, 128);
  }
  thead {
     background-color: #000000;
